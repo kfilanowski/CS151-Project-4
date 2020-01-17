@@ -5,7 +5,7 @@ A word ladder from one word to another means to change one character in the star
 and moves us closer to the second word, we move onto that word and repeat this process.
 This results in a chain of words with a one letter difference from the starting word to the ending word.
 For example, from three to house we have:
-
+```
 three
 threw
 shrew
@@ -18,7 +18,7 @@ marse
 morse
 horse
 house
-
+```
 There are 12 words total.
 
 # Authors
@@ -48,22 +48,23 @@ Then the program should prompt for a dictionary and a starting and ending word. 
 Then, pick whatever starting and ending word you would like.
 
 For example, the following code:
-`java -cp ./bin Driver dictionary.txt three house`
+`java -cp ./bin Driver dictionary.txt house eight`
 
 yields these results:
+
 ```
+eight
+bight
+bigot
+begot
+beget
+beret
+buret
+burst
+hurst
+horst
+horse
 house
-mouse
-morse
-marse
-marge
-sarge
-saree
-scree
-screw
-shrew
-threw
-three
 There are 12 words total.
 ```
 
